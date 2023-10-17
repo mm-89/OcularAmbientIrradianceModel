@@ -6,12 +6,16 @@ This model allows for the calculation of ocular irradiance (irradiance received 
 
 To use this code, it is necessary to install the two libraries it relies on: numpy and scipy. If you do not have these libraries, you can install them by running the following command:
 
+```bash
 pip install -r requirements.txt
+```
 
 Alternatively, you can install them one at a time using the following commands:
 
+```bash
 pip install numpy
 pip install scipy
+```
 
 ## Quick Start
 
