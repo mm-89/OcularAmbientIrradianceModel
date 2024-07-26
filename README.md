@@ -1,6 +1,6 @@
 ## Model of Ocular Ambient Irradiance
 
-Questo coice è una prima semplice implementazione del modello descritt in Marro et al. 2024 "A model of ocular ambient irradiance at any head orientation".
+This code is an initial simple implementation of the model described in Marro et al. 2024, "A model of ocular ambient irradiance at any head orientation".
 
 This model allows for the calculation of ocular irradiance (irradiance received by the ocular area) based on local ambient irradiance (DNI, DHI and albedo), the sun's position (zenith and azimuth angles), and  orientation of the head (pitch and yaw).
 
@@ -47,7 +47,7 @@ print(intens) # result is: 0.25141949 W/m2
 
 ## Example with rotating head
 
-Cnsideriamo che la testa ruoti di 180 gradi (da 90 a 270) e che sia orientata verso il basso di 15 gradi (tipico orientamento di persona che cammina). Assumiamo che la rotazione sia abbastanza veloce da non apprezzare un cambiamento nella direzione del sole.
+Consider that the head rotates 180 degrees (from 90 to 270) and is tilted downward by 15 degrees (a typical orientation for a walking person). We assume the rotation is fast enough that no change in the sun's direction is appreciable.
 
 ```python
 import numpy as np
@@ -69,7 +69,8 @@ print(I_dir)
 
 ## Cite this work
 
-```@article{Marro_2024,
+```
+@article{Marro_2024,
 title = {A model of ocular ambient irradiance at any head orientation},
 journal = {Computers in Biology and Medicine},
 volume = {179},
